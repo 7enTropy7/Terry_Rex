@@ -77,18 +77,24 @@ def run(config_path):
 
 
 
-def draw_win(win,dino,cactii,score):
+def draw_win(win,dino,cactii,score,gen):
     win.fill((50,50,50))
     for cactus in cactii:
         cactus.draw(win)
     dino.draw(win)
     pygame.font.init()
-    score_font = pygame.font.SysFont("Forte",50)
-    score_text = score_font.render("Score: "+str(score),1,(0,0,0))
-    win.blit(score_text,(10,10))
+    font = pygame.font.SysFont("Forte",50)
+    score_text = font.render("Score: "+str(score),1,(0,0,0))
+    win.blit(score_text,(483,10))
+    gen_text = font.render("Generation: " + str(gen-1),1,(0,0,0))
+    win.blit(gen_text,(10,10))
     pygame.display.update()
 
+gen = 0
+
 def main(genomes,config):
+    global gen
+    gen += 1
     dinos = []
     cactii = [Cactii()]
     pygame.init()
@@ -170,7 +176,7 @@ def main(genomes,config):
         for i in del_cactus:
             cactii.remove(i)
     
-        draw_win(win,dino,cactii,score)
+        draw_win(win,dino,cactii,score,gen)
 
 
 if __name__=="__main__":
