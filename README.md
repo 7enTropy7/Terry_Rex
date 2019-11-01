@@ -2,6 +2,10 @@
 A genetically evolved dinosaur that is scared of Cactus!
 Made the game first using Pygame and then implemented NeuroEvolution of Augmenting Topologies (NEAT) Algorithm for the AI.
 
+This algorithm is so powerful that it learns the optimal policy to dodge cactus in under a minute. 
+
+The AI can move left, right or jump.
+
 Initial phase of training:
 
 ![GIF-191101_110546](https://user-images.githubusercontent.com/36446402/68004799-d62cce80-fc98-11e9-8b07-3f2368748ccc.gif)
