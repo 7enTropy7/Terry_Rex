@@ -1,6 +1,6 @@
 # Terry_Rex
 A genetically evolved dinosaur that is scared of Cactus!
-Made the game first using Pygame and then implemented Neuroevolution of Augmenting Topologies (NEAT) Algorithm for the AI.
+Made the game first using Pygame and then implemented NeuroEvolution of Augmenting Topologies (NEAT) Algorithm for the AI.
 
 Initial phase of training:
 
