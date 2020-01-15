@@ -50,7 +50,8 @@ Now sit back and watch my AI play the game!
 
 ## License
 
-[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
 
