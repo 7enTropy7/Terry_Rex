@@ -30,7 +30,7 @@ $ pip3 install -r requirements.txt
 ```bash
 $ python3 t_rex.py
 ```
-
+Now sit back and watch my AI play the game!
 ## Training
 
 ### Initial phase of training:
