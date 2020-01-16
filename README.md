@@ -47,6 +47,7 @@ Now sit back and watch my AI play the game!
 
 
 ## Author
+[![LinkedIn-profile](https://img.shields.io/badge/LinkedIn-Profile-teal.svg)](https://www.linkedin.com/in/unnikrishnan-menon-aa013415a/)
 
 * [**Unnikrishnan Menon**](https://github.com/7enTropy7)
 
